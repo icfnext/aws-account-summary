@@ -1,4 +1,4 @@
-# aws-account-summary-windows
+# aws-account-summary
 Windows batch file to list summary information about key AWS resources used by the account. It's useful for tracking personal accounts or quickly confirming infrastructure after a complex CloudFormation update.
 
 This is a quick and dirty solution. Of course, you could make it more exact by parsing the output json with [jq](https://github.com/stedolan/jq) and call the AWS APIs directly. 
