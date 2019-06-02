@@ -5,6 +5,8 @@ This is a quick and dirty solution. Of course, you could make it more exact by p
 
 Replacing "findstr" with "grep" should get it to work on Unix.
 
+If you're looking for more detailed information on your Lambdas, try [aws-document-lambda-configurations](https://github.com/stevezieglerva/aws-document-lambda-configurations).
+
 ## Pre-requisites
 
 * [AWS CLI](https://aws.amazon.com/cli/)
