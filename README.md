@@ -3,7 +3,7 @@ Windows batch file to list summary information about key AWS resources used by t
 
 This is a quick and dirty solution. Of course, you could make it more exact by parsing the output json with [jq](https://github.com/stedolan/jq) and call the AWS APIs directly. 
 
-
+Replacing "findstr" with "grep" should get it to work on Unix.
 
 ## Pre-requisites
 
