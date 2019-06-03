@@ -18,6 +18,11 @@ call aws logs describe-log-groups --output json | findstr "logGroupName"
 
 echo *
 echo *
+echo * Dynamodb
+call aws dynamodb list-tables --output json
+
+echo *
+echo *
 echo * Running EC2 instance
 call aws ec2 describe-instances --filters "Name=instance-state-name,Values=running"  --output json | findstr "KeyName"
 
